@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(251, 248, 253);
+    margin: 0;
+    color: black;
+    padding: 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #800080; /* Roxo para o texto do cabeçalho */
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 10px; /* Espaço entre o título e os links de navegação */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza os links de navegação horizontalmente */
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #800080; /* Links roxos */
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #800080; /* Linha roxa embaixo dos links */
+}
+
+nav a:hover {
+    color: black; /* Links pretos ao passar o mouse */
+    background-color: rgb(164, 0, 240); /* Fundo dos links brancos ao passar o mouse */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: black; /* Texto preto para contraste */
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #800080;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a005a;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #800080; /* Roxo para o texto do resultado */
+}

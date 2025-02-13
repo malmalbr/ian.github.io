@@ -1,0 +1,94 @@
+/* Estilo geral */
+body {
+    background-color: rgb(251, 248, 253); /* Fundo preto */
+    color: #800080; /* Texto branco */
+    font-family: initial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #800080; /* Roxo para o texto do cabeçalho */
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 10px; /* Espaço entre o título e os links de navegação */
+}
+
+/* Estilo da navegação */
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza os links de navegação horizontalmente */
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #800080; /* Links roxos */
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #800080; /* Linha roxa embaixo dos links */
+}
+
+nav a:hover {
+    color: black; /* Links pretos ao passar o mouse */
+    background-color: rgb(164, 0, 240); /* Fundo dos links brancos ao passar o mouse */
+}
+
+/* Estilo do conteúdo */
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.content p {
+    margin: 0 20px 0;
+    flex: 1;
+    font-size: 50px;
+    align-items: top right;
+}
+
+.content img {
+    max-width: auto;
+    height: 600px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+/* Estilo do conteúdo */
+.contenty {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenty p {
+    margin: 0 20px 0;
+    flex: 1;
+    font-size: 50px;
+    align-items: top right;
+}
+
+.contenty img {
+    max-width: auto;
+    height: 400px;
+    border-radius: 5px;
+    text-align: right;
+}
